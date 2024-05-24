@@ -1,0 +1,307 @@
+
+
+body{
+
+    margin: 0;
+    background-color: #4793AF;
+    font-family: "Josefin Sans", sans-serif;
+}
+section{
+    min-height: 95vh;
+}
+.hero{
+    background-color: #4793AF;
+    color: #8B322C;
+    display: flex;
+}
+.korobka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+}
+.korobka2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 95vh;
+
+}
+h1{
+    margin: 0;
+    font-size: 100px;
+}
+h2{
+    margin: 0;
+    font-size: 50px;
+}
+h3{
+    margin: 0;
+    font-size: 30px;
+}
+.textcenter{
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+.w50{
+    width: 30%;
+}
+input{
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.m50{
+    margin: 50px;
+}
+
+
+/* Все про меню */
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 600;  
+ 
+}
+.link{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    color:  #8B322C;
+    
+}
+nav{
+    border: 1px ;
+ color:    #8B322C ;
+    margin: 20px 50px;
+    border-radius: 50px;
+    width: calc(100% - 100px);
+    color: #8B322C;
+    background-color: #4793AF;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    /*position: fixed;*/
+}
+.right{
+    position: absolute;
+    right: 80px;
+}
+.btn{
+  
+   position: absolute ; 
+   padding: 10px 10px 10px 10px;
+    background-color: #FFC470;
+    border-radius: 30px;
+    color: #8B322C;
+    margin-bottom: 0vh;
+  
+}
+
+
+/*Все про пятно*/
+.piatno{
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 800px;
+    left: 75%;
+    box-shadow: 0px 0px 300px 300px #9bb3c7 ;
+}
+img{
+    z-index: 2;
+}
+
+/*Все про блог*/
+#myblog{
+    padding: 150px 0;
+    
+}
+.card{
+    width: 500px;
+    background-color:  #8B322C;
+    padding: 50px ;
+    border-radius: 30px;
+}
+.w100{
+    width: 70%;
+}
+.cardbtn{
+    text-decoration: none;
+    width: 500px;
+    display: block;
+    margin: 15 100px;
+}
+.dflex{
+    display: flex;
+}
+.w80{
+    width: 80%;
+}
+.chiutnizhe{
+    margin-top: 350px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+}
+.kartinka{     
+    width: 60%;
+    height: 100vh;
+}
+.mamatvoya {
+    Border-radius: 90 px;
+}
+.aboutme {
+    background-color: #8B322C ;
+    height: 110vh;
+    color: #4793AF;
+}
+.pris {
+    position: absolute;  
+}
+.few1 {
+  left: 500px;
+}
+.few2 {
+    left: 700px;
+  }
+.few3 {
+    left: 900px;
+  }
+.few4 {
+    left: 1100px;
+  }
+  .myskills {
+    color: #4793AF;
+    background-color:#8B322C;
+  }
+.cont {
+    color: #4793AF;
+    background-color:#8B322C;
+}
+.ga {
+    color: #4793AF;
+}
+.ew {
+    color:#8B322C;
+    background-color: #4793AF ;
+}
+.t {
+    font-size: 20.5vh;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+   margin-left:23vw ;
+   margin-right:1vw ;
+    color:#8B322C;
+}
+.w {
+    font-size: 20.5vh;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+   margin-left:23vw ;
+   margin-right:1vw ;
+    color:#4793AF;
+}
+.domp {
+    font-size:6.9711111111111111111111111111111111vh ;
+    margin-top: 4.1vh;
+    margin-bottom: 0vh;
+    margin-left: 17vw;
+    margin-right: 17vw;
+}
+.domp1 {
+
+    margin-top: 0vh;
+    margin-bottom:52vh;
+}
+.ass {
+    font-size: 20.5vh;
+}
+.korobkt{
+    height:100vh;
+    width:13vw;
+    z-index: 1;}
+    .casper
+    {
+        position: absolute;
+    }
+    .womp2{
+        margin-top:10.5vh;
+        margin-bottom: 1vh;
+        margin-left: 27.5vw;
+        margin-right: 10vw;
+    }
+    .flex{
+        display: flex;
+    }
+    .skis0{
+        margin-right: 6vw;
+        margin-left: 13vw;
+    }
+    .skis{
+        margin-bottom: 3vh;
+        margin-right: 6vw;
+        margin-left: 16vw;
+        flex-direction: column;
+    }
+    .skis1{
+        margin-right: 33vw;
+        margin-left: 6vw;
+        flex-direction: column;
+        margin-bottom: 15vh;
+    }
+    .par{
+        color: #4793AF;
+    }
+    .aboutm{
+        justify-content: flex-end;
+    }
+    .rty{
+        color: #4793AF;
+    }
+    .c {
+        width: 70%;
+    }
+    .car{
+        text-decoration: none;
+        width: 500px;
+        display: block;
+        margin: 15 100px;
+    }
+    .dfl{
+        display: flex;
+    }
+    .ch{
+        margin-top: 350px;
+    }
+    .card{
+        width: 500px;
+        background-color:  #8B322C;
+        padding: 50px ;
+        border-radius: 30px;
+    }
+    .w1{
+        width: 70%;}
+    .sk {
+        margin-top: 2vh;
+    }
